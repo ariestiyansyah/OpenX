@@ -2,7 +2,7 @@
 import os
 import sys
 
-## Run gather lms static
+## Run gather cms static
 user_edxapp = os.system('id -u edxapp')
 os.setuid(user_edxapp)
 os.chdir('/edx/app/edxapp/edx-platform')
